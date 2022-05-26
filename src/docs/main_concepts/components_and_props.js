@@ -14,8 +14,8 @@
 
 function Welcome(props) {
     return <h1>Hello, {props.name}</h1>;
-  }
-  
+}
+
 // This function is a valid React component because it accepts a single “props” (which stands for properties)
 // object argument with data and returns a React element.
 // We call such components “function components” because they are literally JavaScript functions.  
@@ -163,11 +163,26 @@ const element = <Welcome name="Sara" />;
 // In the next section, we will introduce a new concept of “state”. State allows React components to change their output over time 
 // in response to user actions, network responses, and anything else, without violating this rule.
 
-const ComponentsAndProps = () => {
-    return(
-        <>
-           {element}
-        </>
+const ComponentsAndProps = ({ arr }) => {
+
+    return (
+        <div>
+
+            {arr.map((data) => {
+                return <table>
+                    <tr>
+                        <th>names</th>
+                        <th>professions</th>
+                    </tr>
+                    <tr>
+                        <td>{data.name}</td>
+                        <td>{data.profession}</td>
+                    </tr>
+                </table>
+
+            })}
+
+        </div>
     );
 }
 
