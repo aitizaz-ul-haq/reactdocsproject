@@ -5,7 +5,8 @@ import ComponentsAndProps from "./docs/main_concepts/components_and_props";
 import HandlingEvents from "./docs/main_concepts/handling_events";
 import ConditionalRendering from "./docs/main_concepts/conditional_rendering";
 import ListandKeys from "./docs/main_concepts/lists_and_keys";
-import Forms from "./docs/main_concepts/forms";
+// import Forms from "./docs/main_concepts/forms";
+import LiftingTheStateUp from "./docs/main_concepts/lifting_state_up";
 
 const messages = ['React', 'Re: React', 'Re:Re: React'];
 
@@ -69,7 +70,8 @@ function App() {
       {/* <HandlingEvents /> */}
       {/* <ConditionalRendering unreadMessages={messages} /> */}
       {/* <ListandKeys data={posts} /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <LiftingTheStateUp />
     </>
   );
 }
