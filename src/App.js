@@ -1,12 +1,13 @@
 
-import IntroducingJSX from "./docs/main_concepts/introducing_jsx";
-import RenderingElements from "./docs/main_concepts/rendering_elements";
-import ComponentsAndProps from "./docs/main_concepts/components_and_props";
-import HandlingEvents from "./docs/main_concepts/handling_events";
-import ConditionalRendering from "./docs/main_concepts/conditional_rendering";
-import ListandKeys from "./docs/main_concepts/lists_and_keys";
+// import IntroducingJSX from "./docs/main_concepts/introducing_jsx";
+// import RenderingElements from "./docs/main_concepts/rendering_elements";
+// import ComponentsAndProps from "./docs/main_concepts/components_and_props";
+// import HandlingEvents from "./docs/main_concepts/handling_events";
+// import ConditionalRendering from "./docs/main_concepts/conditional_rendering";
+// import ListandKeys from "./docs/main_concepts/lists_and_keys";
 // import Forms from "./docs/main_concepts/forms";
-import LiftingTheStateUp from "./docs/main_concepts/lifting_state_up";
+// import LiftingTheStateUp from "./docs/main_concepts/lifting_state_up";
+import CompositionVsInheritance from "./docs/main_concepts/composition_vs_inheritance";
 
 const messages = ['React', 'Re: React', 'Re:Re: React'];
 
@@ -71,7 +72,8 @@ function App() {
       {/* <ConditionalRendering unreadMessages={messages} /> */}
       {/* <ListandKeys data={posts} /> */}
       {/* <Forms /> */}
-      <LiftingTheStateUp />
+      {/* <LiftingTheStateUp /> */}
+      <CompositionVsInheritance />
     </>
   );
 }
