@@ -176,8 +176,6 @@
 // Collective list of topics 
 
 
-
-
 // Map
 // Map filter and reduce
 // filter and reduce
@@ -189,29 +187,27 @@
 // primitive data types
 // Conditionals
 // loops
-// for each loop
+// foreach loop
 // Functions
 // Arrow Functions
 // Functions vs Arrow Functions
-// lexical this
+// lexical this (how lexical this works)
 // Events
 // handling Events
-// how lexical this works
-// Normal Functions
 // Destruchuring
 // Named Imports
 // Default Imports
+// async/await
 // Asynchronous javascript
 // Callbacks
 // Promises
-// async/await
 // Rest parameters and spread syntax
 // Spread Operator
 // Destructuring
-// Destructuring Assignmen
+// Destructuring Assignment
 // Equality
 // Error Handling
-// Es6 Syntax
+// Es6 Syntax/concepts
 // Arrays
 // Array Methods
 // Array Push
@@ -219,14 +215,12 @@
 // Ternary operator
 // Fetch
 // objects
+// Object Computed properly Names
 // Classes
 // Strings
-// Object Computed properly Names
 // Refernece vs Value
 // Short Circuting
-// Es6 Concepts
 // find
-// forEach
 // some
 // every
 // includes
