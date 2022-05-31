@@ -7,7 +7,10 @@
 // import ListandKeys from "./docs/main_concepts/lists_and_keys";
 // import Forms from "./docs/main_concepts/forms";
 // import LiftingTheStateUp from "./docs/main_concepts/lifting_state_up";
-import CompositionVsInheritance from "./docs/main_concepts/composition_vs_inheritance";
+// import CompositionVsInheritance from "./docs/main_concepts/composition_vs_inheritance";
+import ThinkingInReact from "./docs/main_concepts/thinking_in_react";
+
+
 
 const messages = ['React', 'Re: React', 'Re:Re: React'];
 
@@ -73,7 +76,8 @@ function App() {
       {/* <ListandKeys data={posts} /> */}
       {/* <Forms /> */}
       {/* <LiftingTheStateUp /> */}
-      <CompositionVsInheritance />
+      {/* <CompositionVsInheritance /> */}
+      <ThinkingInReact />
     </>
   );
 }
