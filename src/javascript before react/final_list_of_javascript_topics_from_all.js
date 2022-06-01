@@ -194,7 +194,6 @@
 // lexical this (how lexical this works)
 // Events
 // handling Events
-// Destruchuring
 // Named Imports
 // Default Imports
 // async/await
